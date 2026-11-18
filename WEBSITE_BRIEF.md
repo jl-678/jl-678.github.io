@@ -55,7 +55,7 @@ Building, mentoring, and empowering product marketing teams to deliver meaningfu
 Driving differentiated positioning, successful product launches, and revenue growth across enterprise markets.
 
 ### Enterprise Technology & AI Expertise
-Deep expertise across enterprise IT infrastructure, cloud, observability, and artificial intelligence.
+Bringing hands-on technical depth across cloud, infrastructure, observability, and AI to product positioning, go-to-market strategy, and executive conversations.
 
 **Approved messaging:** Use this description for the technical expertise pillar.
 
@@ -80,7 +80,7 @@ These should become **concrete, credible accomplishments** rather than generic c
 Use layered specificity:
 
 - **Hero:** Broad executive positioning; ideally no technology laundry list.
-- **Pillars:** Enterprise IT infrastructure, cloud, observability, and artificial intelligence.
+- **Pillars:** Hands-on technical depth across cloud, infrastructure, observability, and AI, applied to product positioning, go-to-market strategy, and executive conversations.
 - **Impact and portfolio:** Specific proof points such as logs, metrics, traces, OpenTelemetry, telemetry pipelines, AI-powered observability, AI application monitoring, cloud platforms, and relevant partnerships.
 
 The website should communicate both strategic leadership and genuine technical fluency without reading like a product datasheet.
