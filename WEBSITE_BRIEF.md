@@ -55,7 +55,9 @@ Building, mentoring, and empowering product marketing teams to deliver meaningfu
 Driving differentiated positioning, successful product launches, and revenue growth across enterprise markets.
 
 ### Enterprise Technology & AI Expertise
-Deep expertise in AI-powered observability, AI application monitoring, cloud infrastructure, and enterprise data platforms.
+Deep expertise spanning enterprise IT infrastructure, cloud technologies, observability, and AI-powered solutions.
+
+**Approved messaging:** Use this description for the technical expertise pillar.
 
 ### Executive Engagement & Thought Leadership
 Engaging and influencing executive audiences through strategic customer briefings, industry presentations, partner engagements, and thought leadership.
@@ -66,7 +68,7 @@ These are working descriptions, not immutable copy. Keep them balanced in length
 
 These should become **concrete, credible accomplishments** rather than generic capability claims. Keep them succinct and avoid hard public metrics.
 
-1. **Building & Leading High-Performing Teams:** Leadership, coaching, developing talent, and scaling PMM effectiveness. **Needs a specific example** from Jay before finalizing.
+1. **Building & Leading High-Performing Teams:** Built a product marketing team from the ground up, growing to seven direct reports while mentoring and developing team members into more senior roles. **Approved messaging** for the career-impact description; retain the existing website heading, “Building teams that deliver.”
 2. **Driving Significant Business Growth:** Observability and logs go-to-market work at Dynatrace; show business contribution without confidential figures.
 3. **Launching & Scaling Innovative Technologies:** Actifio's Database DevOps offering; Dynatrace Bindplane / OpenTelemetry and telemetry pipeline initiatives. Explain what Jay led and why it mattered.
 4. **Executive Engagement & Industry Speaking:** Lead presenter and moderator in executive briefing centers (EBCs), Gartner conference speaking, customer and global systems integrator/partner webcasts, executive and analyst engagements.
@@ -78,7 +80,7 @@ These should become **concrete, credible accomplishments** rather than generic c
 Use layered specificity:
 
 - **Hero:** Broad executive positioning; ideally no technology laundry list.
-- **Pillars:** Observability, AI, cloud-native infrastructure, enterprise data platforms.
+- **Pillars:** Enterprise IT infrastructure, cloud technologies, observability, and AI-powered solutions.
 - **Impact and portfolio:** Specific proof points such as logs, metrics, traces, OpenTelemetry, telemetry pipelines, AI-powered observability, AI application monitoring, cloud platforms, and relevant partnerships.
 
 The website should communicate both strategic leadership and genuine technical fluency without reading like a product datasheet.
@@ -133,12 +135,11 @@ Each item should ideally have a short title, context (role and audience), and an
 ## 11. Open Questions / Next Steps
 
 1. Review hero with **one sentence only** and decide whether technical scope needs a second sentence.
-2. Obtain a concrete team-building example for the first career-impact card.
-3. Refine the other three impact cards for specificity and differentiation.
-4. Collect and verify the strongest 3–6 public portfolio examples.
-5. Review mobile layout and accessibility; polish as needed.
-6. Decide when to connect `jlivens.com` and whether to allow search indexing.
-7. Separately, at a later time, strengthen executive engagement/speaking experience in both VP/Head PMM and Senior Director resume versions. **Do not let resume editing derail website work.**
+2. Refine the other three impact cards for specificity and differentiation.
+3. Collect and verify the strongest 3–6 public portfolio examples.
+4. Review mobile layout and accessibility; polish as needed.
+5. Decide when to connect `jlivens.com` and whether to allow search indexing.
+6. Separately, at a later time, strengthen executive engagement/speaking experience in both VP/Head PMM and Senior Director resume versions. **Do not let resume editing derail website work.**
 
 ---
 
