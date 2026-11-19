@@ -4,7 +4,7 @@
 **Site:** https://jl-678.github.io/  
 **Repository:** `jl-678/jl-678.github.io`  
 **Potential custom domain:** `jlivens.com`  
-**Status:** Version 1 published; refining content and adding selected work.
+**Status:** Version 1 published; refining content. The selected portfolio content and structure are finalized.
 
 ## 1. Purpose
 
@@ -41,7 +41,7 @@ Single-page website, in this order:
 1. **Hero:** Name, concise executive descriptor, short introduction, discreet LinkedIn/contact links.
 2. **What I Bring:** Four leadership pillars, preferably a compact 2×2 grid.
 3. **Selected Career Impact:** Four brief examples organized by impact, not a chronological resume.
-4. **Selected Work & Speaking:** Curated evidence (conference talks, webcasts, articles, executive presentations), with actual links as they become available.
+4. **Selected Work & Speaking:** Two compact boxes, Articles & Publications and Presentations, each containing four curated entries with public links and short descriptors; no dates.
 5. **Contact / footer:** Simple, professional contact options.
 
 No separate VP and Senior Director resume download links are required on the public site. A minimal career timeline may be considered later only if it adds value.
@@ -87,16 +87,31 @@ The website should communicate both strategic leadership and genuine technical f
 
 ## 7. Selected Work & Speaking Portfolio
 
-Prioritize **real, verifiable, attributable examples** over a large gallery. Potential categories:
+The section heading is **Selected Work & Speaking**. Use exactly two boxes, **Articles & Publications** and **Presentations**, each containing four curated entries in the order below. Keep the boxes equal in height and side by side on desktop, and stack them vertically on mobile. Preserve the compact card styling, typography, colors, spacing, and link hover behavior, with subtle separators between entries and descriptors visually subordinate to titles.
 
-- Gartner and other industry conference presentations.
-- Executive briefing center presentations and moderation (where publicly shareable).
-- Customer, GSI/partner, and expert webcasts.
-- Articles, interviews, thought leadership, and relevant launch or partnership materials.
+### Articles & Publications
 
-Each item should ideally have a short title, context (role and audience), and an external link; thumbnails are optional. Do not invent links, speaking credits, quotations, or metrics. Do not expose private customer materials.
+1. [State of Log Management 2026](https://www.dynatrace.com/resources/state-of-log-management-2026-18096921/) — Industry research · Research strategy, narrative & GTM
+2. [OpenTelemetry: A Guide to Open Observability](https://www.dynatrace.com/resources/ebooks/opentelemetry/) — Ebook · Open standards and observability
+3. [What is APM?](https://www.dynatrace.com/news/blog/what-is-apm/) — Cloud-native application performance
+4. [What is OpenTelemetry?](https://www.dynatrace.com/news/blog/what-is-opentelemetry/) — Open standards and telemetry
 
-**To collect:** Public recordings, event pages, article links, presentation titles, dates, and Jay's exact role in each.
+**Research attribution:** Jay played a significant role throughout the State of Log Management initiative, helping shape the research, findings, narrative, and go-to-market strategy. He did not personally write the report; do not imply sole authorship. Keep this context in the documentation rather than adding a long description to the website.
+
+At the bottom of the Articles & Publications box, include a subtle [View all articles](https://www.dynatrace.com/news/blog/author/jay-livens/) text link.
+
+### Presentations
+
+1. [Scaling AI: From Hype to High Performance](https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/6658378-Dynatrace-Scaling-AI-From-Hype-to-High-Performance) — Gartner IT Symposium/Xpo, Spain · Featured Speaker
+2. [Why APM and Distributed Tracing Are Foundational for Agentic AI Operations](https://www.dynatrace.com/info/webinars/why-apm-and-distributed-tracing-are-foundational-for-agentic-ai-operations/) — Agentic AI · Technical webcast
+3. [Scaling AI from Development to Production](https://www.dynatrace.com/resources/scaling-ai-from-development-to-production-20237967/) — DXC Technology · Partner webcast
+4. [Vitality's Journey to Unified, Privacy-First Observability](https://www.dynatrace.com/resources/vitalitys-journey-to-unified-privacy-first-observability-20087393/) — Customer webcast · Vitality
+
+**Presentation attribution:** Jay personally delivered the Gartner presentation. Keep its title and descriptor meaningful independently of the external session page, which Gartner may eventually remove. Do not invent or imply specific presenter or moderator roles for the webcasts.
+
+Titles are clickable, opening the supplied external URLs in a new tab with `target="_blank"` and `rel="noopener noreferrer"`. Each entry has only its title and short descriptor. **Omit publication dates and event dates.** Retain “2026” as part of the research report's title. Do not add images, thumbnails, badges, lengthy descriptions, or additional portfolio categories.
+
+Prioritize **real, verifiable, attributable examples** over a large gallery. Do not invent links, speaking credits, quotations, or metrics. Do not expose private customer materials.
 
 ## 8. Design Principles
 
@@ -136,7 +151,7 @@ Each item should ideally have a short title, context (role and audience), and an
 
 1. Review hero with **one sentence only** and decide whether technical scope needs a second sentence.
 2. Refine the other three impact cards for specificity and differentiation.
-3. Collect and verify the strongest 3–6 public portfolio examples.
+3. Maintain the finalized Articles & Publications and Presentations selections as public work evolves; retain the decision to omit dates.
 4. Review mobile layout and accessibility; polish as needed.
 5. Decide when to connect `jlivens.com` and whether to allow search indexing.
 6. Separately, at a later time, strengthen executive engagement/speaking experience in both VP/Head PMM and Senior Director resume versions. **Do not let resume editing derail website work.**

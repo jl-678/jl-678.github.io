@@ -36,13 +36,16 @@ h2{font-size:30px;letter-spacing:-.9px;line-height:1.2;margin:0}
 .impact{border-top:1px solid var(--line);padding-top:12px}
 .impact h3{font-size:18px;letter-spacing:-.3px;margin:0 0 6px}
 .tag{display:inline-block;color:var(--accent);font-size:12px;font-weight:700;margin-top:9px}
-.portfolio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-.work{border:1px solid var(--line);border-radius:7px;overflow:hidden}
-.work-top{min-height:46px;background:linear-gradient(125deg,#eaf2f5,#f8fafb);display:flex;align-items:center;padding:12px 18px;color:var(--accent);font-size:12px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}
-.work-body{padding:16px 18px}
-.work h3{font-size:17px;margin:0 0 8px}
+.portfolio{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.work{border:1px solid var(--line);border-radius:7px;overflow:hidden;display:flex;flex-direction:column}
+.work-top{min-height:46px;background:linear-gradient(125deg,#eaf2f5,#f8fafb);display:flex;align-items:center;padding:12px 18px;color:var(--accent)}
+.work-body{padding:16px 18px;display:flex;flex-direction:column;flex:1}
+.work h3{font-size:17px;margin:0}
+.work h4{font-size:17px;margin:0 0 4px}
 .work p{font-size:14px;color:var(--muted);margin:0}
-.pending{font-size:12px;color:#788692;margin-top:12px}
+.work-list{list-style:none;margin:0;padding:0}
+.work-entry+.work-entry{border-top:1px solid var(--line);margin-top:12px;padding-top:12px}
+.work-more{font-size:14px;font-weight:600;margin-top:auto;padding-top:14px}
 .closing{background:var(--soft);text-align:center;padding:32px 0}
 .closing p{color:var(--muted)}
 footer{padding:18px 0;font-size:12px;color:var(--muted)}
@@ -50,8 +53,6 @@ footer{padding:18px 0;font-size:12px;color:var(--muted)}
 @media(min-width:701px) and (max-width:900px){
   .section-head{display:block}
   .hint{max-width:none;margin-top:10px}
-  .portfolio{grid-template-columns:1fr}
-  .work{display:grid;grid-template-columns:180px minmax(0,1fr)}
 }
 @media(max-width:700px){
   .wrap{padding:0 20px}
@@ -85,10 +86,24 @@ footer{padding:18px 0;font-size:12px;color:var(--muted)}
 <article class="impact"><h3>Bringing innovation to market</h3><p>Led the launch of an enterprise Database DevOps platform at Actifio and advanced positioning for OpenTelemetry-based telemetry pipelines and Bindplane at Dynatrace.</p><span class="tag">Product innovation · Actifio and Dynatrace</span></article>
 <article class="impact"><h3>Engaging executive and industry audiences</h3><p>Served as a lead executive briefing presenter and moderator, and represented enterprise technology solutions through industry events and customer, partner, and expert webcasts.</p><span class="tag">Executive engagement · Industry and customer audiences</span></article>
 </div></section>
-<section id="portfolio"><div class="section-head"><h2>Selected work &amp; speaking</h2><p class="hint">A curated selection of presentations, webcasts, and published work. Specific examples will be added as we select them.</p></div><div class="portfolio">
-<article class="work"><div class="work-top">Industry speaking</div><div class="work-body"><h3>Conference presentations</h3><p>Sessions and presentations for industry audiences, including Gartner events.</p><div class="pending">Portfolio link to be added</div></div></article>
-<article class="work"><div class="work-top">Executive engagement</div><div class="work-body"><h3>Customer &amp; partner webcasts</h3><p>Conversations and presentations with customers, global partners, and technology experts.</p><div class="pending">Portfolio link to be added</div></div></article>
-<article class="work"><div class="work-top">Published insights</div><div class="work-body"><h3>Articles &amp; thought leadership</h3><p>Selected writing on observability, enterprise platforms, and technology strategy.</p><div class="pending">Portfolio link to be added</div></div></article>
+<section id="portfolio"><div class="section-head"><h2>Selected Work &amp; Speaking</h2><p class="hint">A curated selection of presentations, webcasts, and published work.</p></div><div class="portfolio">
+<article class="work"><div class="work-top"><h3>Articles &amp; Publications</h3></div><div class="work-body">
+<ul class="work-list">
+<li class="work-entry"><h4><a href="https://www.dynatrace.com/resources/state-of-log-management-2026-18096921/" target="_blank" rel="noopener noreferrer">State of Log Management 2026</a></h4><p>Industry research · Research strategy, narrative &amp; GTM</p></li>
+<li class="work-entry"><h4><a href="https://www.dynatrace.com/resources/ebooks/opentelemetry/" target="_blank" rel="noopener noreferrer">OpenTelemetry: A Guide to Open Observability</a></h4><p>Ebook · Open standards and observability</p></li>
+<li class="work-entry"><h4><a href="https://www.dynatrace.com/news/blog/what-is-apm/" target="_blank" rel="noopener noreferrer">What is APM?</a></h4><p>Cloud-native application performance</p></li>
+<li class="work-entry"><h4><a href="https://www.dynatrace.com/news/blog/what-is-opentelemetry/" target="_blank" rel="noopener noreferrer">What is OpenTelemetry?</a></h4><p>Open standards and telemetry</p></li>
+</ul>
+<div class="work-more"><a href="https://www.dynatrace.com/news/blog/author/jay-livens/" target="_blank" rel="noopener noreferrer">View all articles</a></div>
+</div></article>
+<article class="work"><div class="work-top"><h3>Presentations</h3></div><div class="work-body">
+<ul class="work-list">
+<li class="work-entry"><h4><a href="https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/6658378-Dynatrace-Scaling-AI-From-Hype-to-High-Performance" target="_blank" rel="noopener noreferrer">Scaling AI: From Hype to High Performance</a></h4><p>Gartner IT Symposium/Xpo, Spain · Featured Speaker</p></li>
+<li class="work-entry"><h4><a href="https://www.dynatrace.com/info/webinars/why-apm-and-distributed-tracing-are-foundational-for-agentic-ai-operations/" target="_blank" rel="noopener noreferrer">Why APM and Distributed Tracing Are Foundational for Agentic AI Operations</a></h4><p>Agentic AI · Technical webcast</p></li>
+<li class="work-entry"><h4><a href="https://www.dynatrace.com/resources/scaling-ai-from-development-to-production-20237967/" target="_blank" rel="noopener noreferrer">Scaling AI from Development to Production</a></h4><p>DXC Technology · Partner webcast</p></li>
+<li class="work-entry"><h4><a href="https://www.dynatrace.com/resources/vitalitys-journey-to-unified-privacy-first-observability-20087393/" target="_blank" rel="noopener noreferrer">Vitality's Journey to Unified, Privacy-First Observability</a></h4><p>Customer webcast · Vitality</p></li>
+</ul>
+</div></article>
 </div></section></div>
 <section class="closing"><div class="wrap"><h2>Let's connect.</h2><p>Interested in product marketing leadership, enterprise technology, or go-to-market strategy?</p><a class="button" href="mailto:jay@jlivens.com">Email Jay</a></div></section></main>
 <footer><div class="wrap footer-row"><span>© <span id="year">2026</span> Jay Livens</span><span>Boston, Massachusetts · <a href="https://www.linkedin.com/in/jaylivens/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span></div></footer>
