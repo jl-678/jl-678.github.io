@@ -20,7 +20,7 @@ Create a polished, concise personal website that establishes Jay as an enterpris
 - Be direct, confident, specific, and understated; avoid inflated claims and marketing clichés.
 - Favor short paragraphs, meaningful headings, and easily scanned sections.
 - Keep the page appropriate for both VP and Senior Director roles.
-- Do **not** publish confidential or precise performance metrics (pipeline, bookings, attainment, etc.). Those belong in private, tailored resumes.
+- Use only the explicitly approved public business metrics in Section 5: **44% above plan**, **50%+ of the business**, and triple-digit growth. Do **not** add other confidential or precise performance metrics (pipeline, bookings, attainment, etc.); those belong in private, tailored resumes.
 - Avoid overly narrow positioning around the most recent job or one technology category.
 - Do not portray Jay as an AI model builder or researcher. His relevant AI experience includes marketing AI-powered observability and monitoring/observability for AI applications and infrastructure.
 
@@ -66,12 +66,14 @@ These are working descriptions, not immutable copy. Keep them balanced in length
 
 ## 5. Four Selected Career Impact Themes
 
-These should become **concrete, credible accomplishments** rather than generic capability claims. Keep them succinct and avoid hard public metrics.
+Use the following approved card titles and descriptions in this order. Preserve the existing four-card, two-column desktop layout, responsive mobile behavior, styling, and spacing.
 
-1. **Building & Leading High-Performing Teams:** Built a product marketing team from the ground up, growing to seven direct reports while mentoring and developing team members into more senior roles. **Approved messaging** for the career-impact description; retain the existing website heading, “Building teams that deliver.”
-2. **Driving Significant Business Growth:** Observability and logs go-to-market work at Dynatrace; show business contribution without confidential figures.
-3. **Launching & Scaling Innovative Technologies:** Actifio's Database DevOps offering; Dynatrace Bindplane / OpenTelemetry and telemetry pipeline initiatives. Explain what Jay led and why it mattered.
-4. **Executive Engagement & Industry Speaking:** Lead presenter and moderator in executive briefing centers (EBCs), Gartner conference speaking, customer and global systems integrator/partner webcasts, executive and analyst engagements.
+1. **Building High-Performing Teams:** Built a product marketing team from the ground up, growing to seven direct reports while mentoring and developing team members into more senior roles.
+2. **Driving Significant Business Growth:** Led global GTM strategy for log management, contributing to pipeline performance **44% above plan** and triple-digit growth.
+3. **Leading & Scaling Enterprise Solutions:** Led product marketing for Dynatrace's APM solution area, representing **50%+ of the business**, while helping launch and scale technologies across observability and enterprise infrastructure.
+4. **Executive Engagement & Industry Speaking:** Presented at Gartner conferences, led executive briefings, and engaged customers and partners through technical webcasts.
+
+**Approved public metrics:** The percentage-based business metrics above and the triple-digit growth statement are explicitly approved for these cards. Bold only **44% above plan** and **50%+ of the business** within their descriptions, using semantic `<strong>` markup and the existing text styling. Do not add any additional financial or business metrics, metric tiles, counters, or graphics.
 
 **Editorial note:** Don't feature Sakon as a highlighted accomplishment. If necessary, it can appear in basic employment history.
 
@@ -141,7 +143,7 @@ Prioritize **real, verifiable, attributable examples** over a large gallery. Do 
 
 **Don't:**
 - Turn the homepage into a long-form resume or a keyword-stuffed SEO page.
-- Publish confidential performance numbers or internal business data.
+- Publish additional financial or business metrics beyond the explicitly approved statements in Section 5, or disclose other confidential internal business data.
 - Overemphasize Sakon.
 - Claim hands-on AI research/model-building expertise.
 - Add fabricated portfolio links or unpublished speaking engagements.
@@ -150,7 +152,7 @@ Prioritize **real, verifiable, attributable examples** over a large gallery. Do 
 ## 11. Open Questions / Next Steps
 
 1. Review hero with **one sentence only** and decide whether technical scope needs a second sentence.
-2. Refine the other three impact cards for specificity and differentiation.
+2. Maintain the approved career-impact card titles, copy, and limited public business metrics in Section 5.
 3. Maintain the finalized Articles & Publications and Presentations selections as public work evolves; retain the decision to omit dates.
 4. Review mobile layout and accessibility; polish as needed.
 5. Decide when to connect `jlivens.com` and whether to allow search indexing.
