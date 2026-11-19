@@ -73,7 +73,9 @@ Use the following approved card titles and descriptions in this order. Preserve 
 3. **Leading & Scaling Enterprise Solutions:** Led product marketing for Dynatrace's APM solution area, representing **50%+ of the business**, while helping launch and scale technologies across observability and enterprise infrastructure.
 4. **Executive Engagement & Industry Speaking:** Presented at Gartner conferences, led executive briefings, and engaged customers and partners through technical webcasts.
 
-**Approved public metrics:** The percentage-based business metrics above and the triple-digit growth statement are explicitly approved for these cards. Bold only **44% above plan** and **50%+ of the business** within their descriptions, using semantic `<strong>` markup and the existing text styling. Do not add any additional financial or business metrics, metric tiles, counters, or graphics.
+**Approved public metrics:** The percentage-based business metrics above and the triple-digit growth statement are explicitly approved for these cards. Bold only **44% above plan** and **50%+ of the business** within their descriptions, using semantic `<strong>` markup and the existing text styling. Do not add any additional financial or business metrics, metric tiles, counters, or graphics beyond the outline icons described below.
+
+**Impact icons:** Use consistent 26px blue outline icons to the left of each card's heading and description: users/group, upward-trending arrow, stacked layers, and microphone, respectively. Use the existing accent color, with no backgrounds, circles, or badges. The icons are decorative inline SVGs, hidden from assistive technology, with no added library dependency. Preserve all card copy and the responsive layout; the numbered leadership pillars remain unchanged.
 
 **Editorial note:** Don't feature Sakon as a highlighted accomplishment. If necessary, it can appear in basic employment history.
 
@@ -90,6 +92,15 @@ The website should communicate both strategic leadership and genuine technical f
 ## 7. Selected Work & Speaking Portfolio
 
 The section heading is **Selected Work & Speaking**. Use exactly two boxes, **Articles & Publications** and **Presentations**, each containing four curated entries in the order below. Keep the boxes equal in height and side by side on desktop, and stack them vertically on mobile. Preserve the compact card styling, typography, colors, spacing, and link hover behavior, with subtle separators between entries and descriptors visually subordinate to titles.
+
+### Portfolio images
+
+Each box has one wide image above its heading. Use identical responsive image frames, approximately 3:1 (14:5), about 175px high at the site's full desktop content width. Use `object-fit: cover` with an individual `object-position` for each image. The existing card's rounded corners clip the images. Preserve all entry titles, descriptors, and links below the images; add no captions, dates, badges, or decorative graphics.
+
+- **Articles & Publications:** `assets/images/state-of-log-management-2026.webp` (1000×525). Authentic Dynatrace promotional artwork for the report, downloaded from the `og:image` metadata of the [State of Log Management 2026 page](https://www.dynatrace.com/resources/state-of-log-management-2026-18096921/). [Original promotional image](https://cdn.dm.dynatrace.com/assets/images/conversion-pages/conversion-page/_1200x630_crop_center-center_82_none/bae24801-RC-state-log-mgmt-2026-1600x900-FINAL.png?mtime=1787232235). Keep the report title readable in the crop. Do not recreate the cover or substitute unrelated artwork; if authentic artwork is unavailable, use a placeholder and report the limitation.
+- **Presentations:** `assets/images/gartner-spain-speaking.webp` (450×300). Jay confirmed that the supplied `ChatGPT Image Nov 19, 2026, 12_08_49 PM.png` is his authentic second Gartner photograph, despite its filename. The 450×600 portrait source shows Jay presenting in front of the IT Xpo Stage 2 signage in Spain. Crop excess ceiling and foreground, emphasizing Jay and the stage branding while retaining some audience context. The portrait source limits how much audience can fit into the wide frame; do not stretch or generate missing image content.
+
+Both assets are optimized WebP files with meaningful alt text and lazy loading. Use authentic report artwork and Jay's actual photograph only; no AI-generated artwork, mockups, stock photography, or per-entry thumbnails.
 
 ### Articles & Publications
 
@@ -111,7 +122,7 @@ At the bottom of the Articles & Publications box, include a subtle [View all art
 
 **Presentation attribution:** Jay personally delivered the Gartner presentation. Keep its title and descriptor meaningful independently of the external session page, which Gartner may eventually remove. Do not invent or imply specific presenter or moderator roles for the webcasts.
 
-Titles are clickable, opening the supplied external URLs in a new tab with `target="_blank"` and `rel="noopener noreferrer"`. Each entry has only its title and short descriptor. **Omit publication dates and event dates.** Retain “2026” as part of the research report's title. Do not add images, thumbnails, badges, lengthy descriptions, or additional portfolio categories.
+Titles are clickable, opening the supplied external URLs in a new tab with `target="_blank"` and `rel="noopener noreferrer"`. Each entry has only its title and short descriptor. **Omit publication dates and event dates.** Retain “2026” as part of the research report's title. Apart from the two approved images above the box headings, do not add images, thumbnails, badges, lengthy descriptions, or additional portfolio categories.
 
 Prioritize **real, verifiable, attributable examples** over a large gallery. Do not invent links, speaking credits, quotations, or metrics. Do not expose private customer materials.
 

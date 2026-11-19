@@ -33,11 +33,15 @@ h2{font-size:30px;letter-spacing:-.9px;line-height:1.2;margin:0}
 .pillar h3{font-size:18px;margin:7px 0 6px;letter-spacing:-.3px}
 .pillar p,.impact p{color:var(--muted);font-size:15px;margin:0;line-height:1.65}
 .impacts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}
-.impact{border-top:1px solid var(--line);padding-top:12px}
+.impact{border-top:1px solid var(--line);padding-top:12px;display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;align-content:start}
+.impact-icon{width:26px;height:26px;color:var(--accent);margin-top:1px}
 .impact h3{font-size:18px;letter-spacing:-.3px;margin:0 0 6px}
 .tag{display:inline-block;color:var(--accent);font-size:12px;font-weight:700;margin-top:9px}
 .portfolio{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .work{border:1px solid var(--line);border-radius:7px;overflow:hidden;display:flex;flex-direction:column}
+.work-image{display:block;width:100%;height:auto;aspect-ratio:14/5;object-fit:cover;flex-shrink:0}
+.work-image--report{object-position:50% 58%}
+.work-image--speaking{object-position:50% 25%}
 .work-top{min-height:46px;background:linear-gradient(125deg,#eaf2f5,#f8fafb);display:flex;align-items:center;padding:12px 18px;color:var(--accent)}
 .work-body{padding:16px 18px;display:flex;flex-direction:column;flex:1}
 .work h3{font-size:17px;margin:0}
@@ -81,13 +85,13 @@ footer{padding:18px 0;font-size:12px;color:var(--muted)}
 <article class="pillar"><span class="number">04</span><h3>Executive Engagement &amp; Thought Leadership</h3><p>Engaging executive audiences through strategic customer briefings, industry presentations, partner engagements, and thought leadership.</p></article>
 </div></section>
 <section id="impact"><div class="section-head"><h2>Selected career impact</h2><p class="hint">A few examples of the work behind the experience.</p></div><div class="impacts">
-<article class="impact"><h3>Building High-Performing Teams</h3><p>Built a product marketing team from the ground up, growing to seven direct reports while mentoring and developing team members into more senior roles.</p><span class="tag">People leadership · Dynatrace and earlier roles</span></article>
-<article class="impact"><h3>Driving Significant Business Growth</h3><p>Led global GTM strategy for log management, contributing to pipeline performance <strong>44% above plan</strong> and triple-digit growth.</p><span class="tag">Growth · Dynatrace</span></article>
-<article class="impact"><h3>Leading &amp; Scaling Enterprise Solutions</h3><p>Led product marketing for Dynatrace's APM solution area, representing <strong>50%+ of the business</strong>, while helping launch and scale technologies across observability and enterprise infrastructure.</p><span class="tag">Product innovation · Actifio and Dynatrace</span></article>
-<article class="impact"><h3>Executive Engagement &amp; Industry Speaking</h3><p>Presented at Gartner conferences, led executive briefings, and engaged customers and partners through technical webcasts.</p><span class="tag">Executive engagement · Industry and customer audiences</span></article>
+<article class="impact"><svg class="impact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 4a3 3 0 0 1 0 6M18 13a6 6 0 0 1 3 5v3"/></svg><div><h3>Building High-Performing Teams</h3><p>Built a product marketing team from the ground up, growing to seven direct reports while mentoring and developing team members into more senior roles.</p><span class="tag">People leadership · Dynatrace and earlier roles</span></div></article>
+<article class="impact"><svg class="impact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 18 6-6 4 4L21 6M14 6h7v7"/></svg><div><h3>Driving Significant Business Growth</h3><p>Led global GTM strategy for log management, contributing to pipeline performance <strong>44% above plan</strong> and triple-digit growth.</p><span class="tag">Growth · Dynatrace</span></div></article>
+<article class="impact"><svg class="impact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3 10 5-10 5L2 8Z"/><path d="m2 12 10 5 10-5M2 16l10 5 10-5"/></svg><div><h3>Leading &amp; Scaling Enterprise Solutions</h3><p>Led product marketing for Dynatrace's APM solution area, representing <strong>50%+ of the business</strong>, while helping launch and scale technologies across observability and enterprise infrastructure.</p><span class="tag">Product innovation · Actifio and Dynatrace</span></div></article>
+<article class="impact"><svg class="impact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8"/></svg><div><h3>Executive Engagement &amp; Industry Speaking</h3><p>Presented at Gartner conferences, led executive briefings, and engaged customers and partners through technical webcasts.</p><span class="tag">Executive engagement · Industry and customer audiences</span></div></article>
 </div></section>
 <section id="portfolio"><div class="section-head"><h2>Selected Work &amp; Speaking</h2><p class="hint">A curated selection of presentations, webcasts, and published work.</p></div><div class="portfolio">
-<article class="work"><div class="work-top"><h3>Articles &amp; Publications</h3></div><div class="work-body">
+<article class="work"><img class="work-image work-image--report" src="assets/images/state-of-log-management-2026.webp" width="1000" height="525" alt="Dynatrace research report artwork: The State of Log Management 2026" loading="lazy" decoding="async"><div class="work-top"><h3>Articles &amp; Publications</h3></div><div class="work-body">
 <ul class="work-list">
 <li class="work-entry"><h4><a href="https://www.dynatrace.com/resources/state-of-log-management-2026-18096921/" target="_blank" rel="noopener noreferrer">State of Log Management 2026</a></h4><p>Industry research · Research strategy, narrative &amp; GTM</p></li>
 <li class="work-entry"><h4><a href="https://www.dynatrace.com/resources/ebooks/opentelemetry/" target="_blank" rel="noopener noreferrer">OpenTelemetry: A Guide to Open Observability</a></h4><p>Ebook · Open standards and observability</p></li>
@@ -96,7 +100,7 @@ footer{padding:18px 0;font-size:12px;color:var(--muted)}
 </ul>
 <div class="work-more"><a href="https://www.dynatrace.com/news/blog/author/jay-livens/" target="_blank" rel="noopener noreferrer">View all articles</a></div>
 </div></article>
-<article class="work"><div class="work-top"><h3>Presentations</h3></div><div class="work-body">
+<article class="work"><img class="work-image work-image--speaking" src="assets/images/gartner-spain-speaking.webp" width="450" height="300" alt="Jay Livens presenting beside the IT Xpo Stage 2 signage at Gartner IT Symposium/Xpo in Spain, with audience members in front" loading="lazy" decoding="async"><div class="work-top"><h3>Presentations</h3></div><div class="work-body">
 <ul class="work-list">
 <li class="work-entry"><h4><a href="https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/6658378-Dynatrace-Scaling-AI-From-Hype-to-High-Performance" target="_blank" rel="noopener noreferrer">Scaling AI: From Hype to High Performance</a></h4><p>Gartner IT Symposium/Xpo, Spain · Featured Speaker</p></li>
 <li class="work-entry"><h4><a href="https://www.dynatrace.com/info/webinars/why-apm-and-distributed-tracing-are-foundational-for-agentic-ai-operations/" target="_blank" rel="noopener noreferrer">Why APM and Distributed Tracing Are Foundational for Agentic AI Operations</a></h4><p>Agentic AI · Technical webcast</p></li>
