@@ -111,8 +111,6 @@ Both assets are optimized WebP files with meaningful alt text and lazy loading. 
 
 **Research attribution:** Jay played a significant role throughout the State of Log Management initiative, helping shape the research, findings, narrative, and go-to-market strategy. He did not personally write the report; do not imply sole authorship. Keep this context in the documentation rather than adding a long description to the website.
 
-At the bottom of the Articles & Publications box, include a subtle [View all articles](https://www.dynatrace.com/news/blog/author/jay-livens/) text link.
-
 ### Presentations
 
 1. [Scaling AI: From Hype to High Performance](https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/6658378-Dynatrace-Scaling-AI-From-Hype-to-High-Performance) — Gartner IT Symposium/Xpo, Spain · Featured Speaker
